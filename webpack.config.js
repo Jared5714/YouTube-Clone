@@ -2,11 +2,6 @@ module.exports = {
   entry: [
     './src/index.js'
   ],
-  output: {
-    path: __dirname,
-    publicPath: '/',
-    filename: 'bundle.js'
-  },
   module: {
     loaders: [{
       exclude: /node_modules/,
@@ -21,6 +16,10 @@ module.exports = {
   },
   devServer: {
     historyApiFallback: true,
-    contentBase: './'
+    contentBase: './',
+    inline: true,
+    host: process.env.IP,
+    port: process.env.PORT,
+    public: process.env.C9_HOSTNAME
   }
 };
