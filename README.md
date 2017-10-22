@@ -1,25 +1,23 @@
-# ReduxSimpleStarter
+# ReduxSimpleStarter - Modified for Cloud9
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+This repo is a modified clone of Stephen Grider's ReduxSimpleStarter. It was created so Cloud9 can easily be used as an environment to complete his Udemy courses with.
 
-### Getting Started
+Interested in his React/Redux  [courses](https://www.udemy.com/react-redux/)?
+
+### Using the Repo with Cloud9
+
+When creating a new Cloud9 workspace, do the following:
+- Clone from git using this repo: https://github.com/anarinya/ReduxSimpleStarter-Cloud9.git
+- Choose Node.js for your Cloud9 template for your new workspace
 
 There are two methods for getting started with this repo.
 
-#### Familiar with Git?
-Checkout this repo, install dependencies, then start the gulp process with the following:
-
-```
-> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
-> cd ReduxSimpleStarter
-> npm install
-> npm start
-```
-
-#### Not Familiar with Git?
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
+#### After Setup:
+Run the following commands in the Cloud9 terminal in your new workspace:
 
 ```
 > npm install
 > npm start
 ```
+
+Run your project and preview it, it should show the text "Redux simple starter".
