@@ -2,7 +2,7 @@
 
 This repo is a modified clone of Stephen Grider's ReduxSimpleStarter. It was created so Cloud9 can easily be used as an environment to complete his Udemy courses with.
 
-Interested in his React/Redux courses? Visit [Udemy](https://www.udemy.com/react-redux/)?
+Interested in his React/Redux courses? Visit [Udemy](https://www.udemy.com/react-redux/)
 
 ### Using the Repo with Cloud9
 
